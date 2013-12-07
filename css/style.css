@@ -1,0 +1,72 @@
+body {
+	font-family: 'Days One', sans-serif;
+	color: #663399;
+	background: #000000 url('img/black_paper.png') repeat;
+}
+
+a {
+	color: #625D5D; 
+	text-decoration: none;
+}
+
+h1 {
+	font-size: 1.70em;
+	letter-spacing: -1.5px;
+}
+
+h2 {
+	font-size: 1.500em;
+	color: #4FB69F;
+}
+
+.btn {
+	color: #4FB69F;
+	background: #625D5D url('img/always_grey.png') repeat right top;
+    padding: 15px 20px;
+    border-radius: 25px;
+    text-transform: uppercase;
+}
+
+.btn:hover {
+	color: lightyellow;
+}
+
+#logo {
+	text-transform: uppercase;
+	font-size: 2.5em;
+	margin: 0 0 -30px;
+}
+
+#divider {
+	margin-top: -30px;
+	border-bottom: 8px solid #4FB69F;
+}
+
+#ninjas img {
+	padding-top: 70px;
+}
+
+#intro {
+	margin: 10px 0 0 0;
+}
+
+#squirrel img {
+	padding: 58px 40px;
+	float: right;
+}
+
+#quirky img {
+	border: 8px solid #4FB69F;
+	margin: 0 0 5px 0;
+}
+
+#fun-fact img {
+	border: 8px solid #4FB69F;
+}
+
+#copyright {
+	border-top: 8px solid #4FB69F;
+	padding: 10px 0px;
+	margin: 15px 0px;
+	text-align: center;
+}
