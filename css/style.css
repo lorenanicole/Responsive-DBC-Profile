@@ -11,7 +11,7 @@ a {
 
 h1 {
 	font-size: 1.70em;
-	letter-spacing: -1.5px;
+	letter-spacing: -0.05em;
 }
 
 h2 {
@@ -34,30 +34,30 @@ h2 {
 #logo {
 	text-transform: uppercase;
 	font-size: 2.5em;
-	margin: 0 0 -30px;
+	margin: 0 0 -3.3%;
 }
 
 #divider {
-	margin-top: -30px;
+	margin-top: -3.3%;
 	border-bottom: 8px solid #4FB69F;
 }
 
 #ninjas img {
-	padding-top: 70px;
+	padding-top: 23%;
 }
 
 #intro {
-	margin: 10px 0 0 0;
+	margin: 1.5% 0 0 0;
 }
 
 #squirrel img {
-	padding: 58px 40px;
+	padding: 6.4% 3%;
 	float: right;
 }
 
 #quirky img {
 	border: 8px solid #4FB69F;
-	margin: 0 0 5px 0;
+	margin: 0 0 0.005% 0;
 }
 
 #fun-fact img {
@@ -66,7 +66,7 @@ h2 {
 
 #copyright {
 	border-top: 8px solid #4FB69F;
-	padding: 10px 0px;
-	margin: 15px 0px;
+	padding: 1.2% 0;
+	margin: 1.67% 0;
 	text-align: center;
 }
