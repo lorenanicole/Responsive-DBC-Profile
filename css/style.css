@@ -1,3 +1,5 @@
+/*global*/
+
 body {
 	font-family: 'Days One', sans-serif;
 	color: #663399;
@@ -9,6 +11,8 @@ a {
 	text-decoration: none;
 }
 
+/*typography*/
+
 h1 {
 	font-size: 1.70em;
 	letter-spacing: -0.05em;
@@ -18,6 +22,8 @@ h2 {
 	font-size: 1.500em;
 	color: #4FB69F;
 }
+
+/*buttons*/
 
 .btn {
 	color: #4FB69F;
@@ -30,6 +36,8 @@ h2 {
 .btn:hover {
 	color: lightyellow;
 }
+
+/*content*/
 
 #logo {
 	text-transform: uppercase;
@@ -69,4 +77,64 @@ h2 {
 	padding: 1.2% 0;
 	margin: 1.67% 0;
 	text-align: center;
+}
+
+/*media queries*/
+
+/* Larger ----------- */
+@media screen and (max-width: 1024px) {
+
+#ninjas {
+	width: 100%; 
+	text-align: center;
+	margin: -20% 0 -8% 0;
+}	
+
+#logo {
+	text-align: center;
+	width: 100%;
+}
+
+#squirrel img , #fun-fact img, #quirky img{
+	max-width: 100%; 
+}
+
+}
+
+/* Smaller ----------- */
+@media screen and (max-width : 650px) {
+
+.grid_1,
+.grid_2,
+.grid_3,
+.grid_4,
+.grid_5,
+.grid_6,
+.grid_7,
+.grid_8,
+.grid_9,
+.grid_10,
+.grid_11,
+.grid_12 {
+	width:100%;
+}
+
+#squirrel img {
+	display: none; 
+}
+
+#intro h1 {
+	width: 100%;
+}
+
+.btn {
+	width: 100%;
+	text-align: center;
+	font-size: 0.75em;
+}
+
+#fun-fact img, #quirky img {
+	max-width: 100%; 
+}
+
 }
